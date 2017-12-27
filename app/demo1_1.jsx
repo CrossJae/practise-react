@@ -8,7 +8,7 @@ export default class App extends Component {
     // 绑定了一个事件
     this.handleItemChange = this.handleItemChange.bind(this);
   }
-
+  // important
   handleItemChange(item){
     console.log(item);
   }

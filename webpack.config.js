@@ -8,7 +8,7 @@ module.exports = {
 	entry: [
 		'webpack-dev-server/client?http://127.0.0.1:8080', // WebpackDevServer host and port
 		'webpack/hot/only-dev-server',
-		'./entry/demo1.jsx' // Your appʼs entry point
+		'./entry/demo3.jsx' // Your appʼs entry point
 
 	],
 	//生成的sourcemap的方式

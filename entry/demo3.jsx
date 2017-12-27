@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, hashHistory,IndexRoute ,browserHistory} from 'react-router';
-import App from './app/App.jsx';
-
+import App from '../app/demo3_1.jsx';
+// 入口
 ReactDOM.render(
 	<App />,
 	document.querySelector("#App")

@@ -62,7 +62,8 @@ class List extends Component {
         checked: prevEntry.text === entry.text ? !prevEntry.checked : prevEntry.checked
       }))
     })
-    this.props.handleItemChange(entry); //?
+    // 向父组件的函数传递 important
+    this.props.handleItemChange(entry);
   }
   render(){
     return(
@@ -74,7 +75,7 @@ class List extends Component {
               value={entry.text}
               checked={entry.checked}
               onChange={this.onItemChange.bind(this, entry)}
-              // entry是什么？
+              // 每次改变传入每条entry数据
              />
           ) ) }
         </ul>

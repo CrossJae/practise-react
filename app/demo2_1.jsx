@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import List from './demo1_2.jsx';
+import List from './demo2_2.jsx';
 
 // 总组件
 export default class App extends Component {

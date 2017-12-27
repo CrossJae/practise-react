@@ -1,6 +1,6 @@
 ## 练习
 
-* 每次要切换webpack.config.js中的入口文件的文件名
+* 每次要切换webpack.config.js中的入口文件的文件名`demo1.jsx`
 ```
 entry: [
   'webpack-dev-server/client?http://127.0.0.1:8080', // WebpackDevServer host and port
